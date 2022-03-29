@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/purple_200"
+    android:focusable="true"
+    tools:ignore="RtlSymmetry">
+
+    <TextView
+        android:id="@+id/movie_classify_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:duplicateParentState="true"
+        android:paddingLeft="12.5dp"
+        android:paddingTop="4dp"
+        android:textSize="12sp"
+        android:paddingBottom="4dp"
+        android:textColor="@color/FF6B6B6B" />
+
+</RelativeLayout>

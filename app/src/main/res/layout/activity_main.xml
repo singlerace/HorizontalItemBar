@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--    <com.example.myapplication.HorizontalItemBar-->
+
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="80dp"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:background="@color/backgroundColor"-->
+    <!--        android:paddingTop="13dp"-->
+    <!--        android:textSize="12sp"-->
+    <!--        hy:checkItemTextColor="@color/check_textColor"-->
+    <!--        hy:indicator_color="@color/purple_200"-->
+    <!--        hy:indicator_default_position="2"-->
+    <!--        hy:indicator_height="2dp"-->
+    <!--        hy:indicator_width="20dp"-->
+    <!--        hy:isLoop="true"-->
+    <!--        hy:isShow_indicateIcon="true"-->
+    <!--        hy:normalTextColor="@color/normal_textColor"-->
+    <!--        hy:show_number="4" />-->
+
+    <!--    <RelativeLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="60dp"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:background="@color/backgroundColor">-->
+
+
+    <com.example.myapplication.HorizontalItemBar
+        android:id="@+id/HB"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="13dp"
+        android:textSize="12sp"
+        hy:checkItemTextColor="@color/check_textColor"
+        hy:indicator_color="@color/purple_200"
+        hy:indicator_default_position="2"
+        hy:indicator_height="2dp"
+        hy:indicator_width="20dp"
+        hy:isLoop="true"
+        hy:isShow_indicateIcon="true"
+        hy:itemAlignIndicator="true"
+        hy:normalTextColor="@color/normal_textColor"
+        hy:show_ItemNumber="6" />
+
+    </LinearLayout>
